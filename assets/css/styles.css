@@ -1,0 +1,82 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: url('/assets/img/Fondo_grupoNovopor@4x.png') no-repeat center center fixed;
+    background-size: cover; /* Hace que el fondo ocupe toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen de fondo no se mueva al hacer scroll */
+    color: #fff;
+  }
+  
+    
+  /* Logos inferiores */
+.container {width: 100%;}
+
+.logos-inferiores {
+    display: flex;
+    justify-content: space-around; /* Espaciado uniforme entre logos */
+    align-items: center;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    padding: 100px 0;
+  }
+  
+  .logo-link {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex: 1; /* Cada logo ocupa el mismo ancho proporcional */
+  }
+  
+  .logo-link img {
+    width: 200px; /* Tamaño más grande para los logos */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .logo-link:hover {
+    transform: scale(1.1); /* Efecto hover */
+  }
+  
+/*pagina en construccion*/
+
+.box{
+    align-items: center;
+}
+.pag-servicios {
+    font-size: 40px;
+    font-family: monospace;
+    color: darkcyan;
+}
+  
+  /* Responsividad para móviles */
+  @media (max-width: 768px) {
+    .logos-inferiores {
+      flex-direction: column; /* Cambia a diseño vertical */
+      gap: 30px; /* Mayor espacio entre los logos */
+      padding: 25px 0;
+    }
+  
+    .logo-link img {
+      width: 130px; /* Ajuste del tamaño en pantallas más pequeñas */
+    }
+
+    .logo-link .logo-mas-chico {
+        width: 145px;
+    } 
+    
+  }
+  
+  @media (max-width: 480px) {
+   
+  
+   
+  }

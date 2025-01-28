@@ -71,7 +71,11 @@ body {
 
     .logo-link .logo-mas-chico {
         width: 140px;
-    } 
+    }
+    
+    .pag-servicios{
+      font-size: 20px;
+    }
     
   }
   

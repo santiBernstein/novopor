@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-image: url(../img/Fondo_grupoNovopor@4x.png);
     background-size: cover; /* Hace que el fondo ocupe toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-attachment: fixed; /* Hace que la imagen de fondo no se mueva al hacer scroll */
@@ -69,13 +70,12 @@ body {
     }
 
     .logo-link .logo-mas-chico {
-        width: 145px;
+        width: 140px;
     } 
     
   }
   
-  @media (max-width: 480px) {
-   
+  @media (max-width: 480px) {  
   
    
   }

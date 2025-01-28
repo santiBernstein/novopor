@@ -51,6 +51,9 @@ body {
   
 /*pagina en construccion*/
 
+.body-servicios{
+  justify-content: unset;
+}
 .box{
     align-items: center;
 }

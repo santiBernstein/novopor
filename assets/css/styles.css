@@ -16,7 +16,9 @@ body {
   
     
   /* Logos inferiores */
-.container {width: 100%;}
+.container {
+    width: 100%;
+  }
 
 .logos-inferiores {
     display: flex;
@@ -62,15 +64,14 @@ body {
     .logos-inferiores {
       flex-direction: column; /* Cambia a diseño vertical */
       gap: 30px; /* Mayor espacio entre los logos */
-      padding: 25px 0;
     }
   
     .logo-link img {
-      width: 130px; /* Ajuste del tamaño en pantallas más pequeñas */
+      width: 140px; /* Ajuste del tamaño en pantallas más pequeñas */
     }
 
     .logo-link .logo-mas-chico {
-        width: 140px;
+        width: 150px;
     }
     
     .pag-servicios{

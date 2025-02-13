@@ -65,8 +65,12 @@ body {
   
   /* Responsividad para móviles */
   @media (max-width: 768px) {
+
+    body {
+    background-image: url(../img/768x832.png);
+
+    }
     .logos-inferiores {
-      flex-direction: column; /* Cambia a diseño vertical */
       gap: 30px; /* Mayor espacio entre los logos */
     }
   
@@ -85,6 +89,15 @@ body {
   }
   
   @media (max-width: 480px) {  
-  
+    
+    body {
+    background-image: url(../img/375x832.png);
+
+    }
+
+    .logos-inferiores {
+      flex-direction: column; /* Cambia a diseño vertical */
+
+    }
    
   }
